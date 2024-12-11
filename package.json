@@ -1,0 +1,29 @@
+{
+  "name": "vscodecat-ykaede",
+  "displayName": "VSCodecat Yaguchi Kaede Ver.",
+  "description": "A simple animated webview for Yaguchi Kaede.",
+  "version": "1.0.2",
+  "publisher": "srgr0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Srgr0/vscodecat-ykaede"
+  },
+  "engines": {
+    "vscode": "^1.95.3"
+  },
+  "activationEvents": [
+    "onCommand:vscodecat-ykaede.ykaede"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscodecat-ykaede.ykaede",
+        "title": "Show Yaguchi Kaede Animation"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
